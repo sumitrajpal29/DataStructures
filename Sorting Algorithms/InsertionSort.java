@@ -15,6 +15,10 @@ public class InsertionSort {
             }
 
             arr[i]=newElement;
+
+            //print every step in insertion sort
+            for(int k :arr) System.out.print(k+",");
+            System.out.println(" ");
         }
 
         for (int j : arr) System.out.println(j);
